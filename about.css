@@ -1,0 +1,65 @@
+
+/*All of the styling must use div*/
+.bannerarea {
+    /* This is style for the banner picture that used as the background (Note: The opacity of the background should be a bit low because it will be used as a background)*/
+  background: url(../img/banner3.jpg) no-repeat center;/*Recommended size of the photo is 1920*392 px)*/
+  min-height: 392px;
+  background-size: cover; 
+}
+
+.bannerarea h1{
+    /* This style for the text "about" as title*/
+    font-family: product sans;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.contentin{
+    /* This style is for the container for the content below the background*/
+    width: 50%;
+    height: auto;  
+}
+
+.contentin h1{
+    /* This style is for the title of the content (Using h1) */
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.contentin p{
+    /* This style is for the content that using p*/
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: product sans;
+}
+
+.button h1{ 
+    /* This is style for button. if we click this button, it will go to the course page */      
+        margin-left: 5px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 60%;
+        background: rgba(241, 104, 118, 1);
+		color: white;
+		border: 2px solid #cecece;
+		border-radius: 10px;
+		padding: 30px;
+        font-size: 15px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+        font-family: product sans;
+        font-size: 30px;
+	}
+.button a{ 
+    /* This is color of the text at the button */
+    color: white;}
+
+.button:hover h1{ 
+    /* This is style for the button, if you hover your pointer at the buttton*/
+        background: rgb(59, 88, 184);
+        border: 1px solid #b1b1b1;
+		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        font-family: product sans;
+        font-size: 30px;
+	}
